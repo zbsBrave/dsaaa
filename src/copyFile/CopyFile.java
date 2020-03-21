@@ -37,5 +37,6 @@ public class CopyFile {
 	public static void main(String[] args) throws IOException {
 		//File f = new File("C:/Users/zbs/Desktop/q/2.txt");
 		CopyFile.copyFile("1.txt", "2.txt");
+		System.out.println("good");
 	}
 }
